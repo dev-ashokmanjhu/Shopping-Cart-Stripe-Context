@@ -80,7 +80,7 @@ app.post("/checkout", async (req, res) => {
     },
     line_items: lineItems,
     mode: "payment",
-    success_url: "http://localhost:5173/success",
+    success_url: "http://localhost:5173/",
     cancel_url: "http://localhost:5173/",
   });
 

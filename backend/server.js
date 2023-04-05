@@ -80,8 +80,8 @@ app.post("/checkout", async (req, res) => {
     },
     line_items: lineItems,
     mode: "payment",
-    success_url: "http://localhost:5173/paymentsuccess",
-    cancel_url: "http://localhost:5173/paymentfail",
+    success_url: "https://e-commerce-assignment-ashy.vercel.app/paymentsuccess",
+    cancel_url: "https://e-commerce-assignment-ashy.vercel.app/paymentfail",
   });
 
   res.send(
